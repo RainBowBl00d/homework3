@@ -1,12 +1,13 @@
 <script setup>
 import HeaderComponent from './components/HeaderComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import router from './router/index.js';
 </script>
 
 <template>
   <div class="app-wrapper">
     <HeaderComponent/>
-    <router-view />
+    <router-view/>
     <FooterComponent/>
   </div>
 </template>
