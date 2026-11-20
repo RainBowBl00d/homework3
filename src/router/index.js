@@ -1,22 +1,22 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import MainView from '../views/MainView.vue';
-import SingUpView from  '../views/SingUpView.vue';
+import SignupView from '../views/SignupView.vue';
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: MainView
+    component: MainView,
   },
   {
-    path: '/singup',
-    name: 'Singup',
-    component: SingUpView
-  }
+    path: '/signup',
+    name: 'Signup',
+    component: SignupView,
+  },
 ];
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
 });
 
-export default router
+export default router;

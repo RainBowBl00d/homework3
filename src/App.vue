@@ -6,9 +6,9 @@ import router from './router/index.js';
 
 <template>
   <div class="app-wrapper">
-    <HeaderComponent/>
-    <router-view/>
-    <FooterComponent/>
+    <HeaderComponent />
+    <router-view />
+    <FooterComponent />
   </div>
 </template>
 
