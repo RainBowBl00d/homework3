@@ -22,9 +22,11 @@ export default {
 
 <template>
   <main>
-    <PostComponent v-for="post in posts" :key="post.id" :post="post" />
+    <PostComponent v-for="post in posts" :key="post.id" :post-id="post.id" />
     <div>
       <button class="reset-btn" @click="resetLikes">Reset likes</button>
     </div>
   </main>
 </template>
+
+<style scoped src="../assets/main.css"></style>
